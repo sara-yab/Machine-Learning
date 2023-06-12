@@ -1,0 +1,7 @@
+Project Description:
+
+This project focuses on building a Convolutional Neural Network (CNN) classifier using PyTorch libraries for image classification. The objective is to classify a given image dataset based on the Japanese number present in each image. Three CNN models, namely ResNet18, ResNet34, and VGG16, were used for this purpose.
+
+The dataset provided consists of image files containing a combination of Fashion-MNIST data and Japanese integer digits. The training set contains 60,000 labeled grayscale images with an input size of 28x28 pixels, and the test set contains 10,000 grayscale images of similar pixel sizes.
+
+The results were also submitted to the Kaggle competition, where the project ranked seventh with a best accuracy of 91.00% among all submissions.
