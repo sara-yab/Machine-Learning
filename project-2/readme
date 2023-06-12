@@ -1,3 +1,15 @@
+Project Description:
+
+This Kaggle competition project focuses on evaluating the effectiveness of different machine learning classifiers for text classification, with a specific emphasis on Naïve Bayes and Multi-layer Perceptron (MLP) classifiers. The dataset used consists of posts and comments from Reddit, categorized into four possible categories: Trump, Obama, Musk, and Ford.
+
+Model selection was performed using 5-Fold Cross-Validation, and the study found that the accuracy of the final model on the test set depends on various techniques, including preprocessing methods and the choice of classifier. The GridSearchCV method was employed to identify the optimal combination of preprocessing pipeline and classifier parameters.
+
+The project implemented the Bernoulli Naïve Bayes classifier from scratch, as well as utilized several classifiers from the Scikit-Learn library, such as Support Vector Machine, Logistic Regression, Multinomial Naive Bayes, Decision Tree, and Random Forest. Extensive hyper-parameter tuning was conducted for all these classifiers and the custom Bernoulli Naïve Bayes classifier.
+
+In addition, various techniques were employed to enhance model performance, including Lemmatization, Stemming, stop-word dictionary utilization, Feature Selection (chi-squared test), and Normalization. Ensemble learning, which combined multiple classifiers, also demonstrated its effectiveness in improving accuracy.
+
+However, the highest accuracy was achieved by utilizing Multi-layer Perceptron classifiers in conjunction with normalization, a stop-word dictionary, and a Chi-squared test. The best accuracy obtained in the Kaggle competition was 97.59%.
+
 please unzip the folder in your drive. Afterwards , you can seamlessly run the code.
 please do not rename the dataset csv files.the datasets should be in your google drive in a folder named ecse551-mp2.
 Thank You!
