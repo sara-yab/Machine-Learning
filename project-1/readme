@@ -1,3 +1,14 @@
+Project Description:
+
+This project focuses on utilizing logistic regression to address two binary classification problems: white wine quality and blood in kidney datasets. The aim of the study was to develop models and improve their performance through various experiments.
+
+The project began by establishing baseline results using simple models. Subsequently, feature importance was employed to identify the best set of features for model building.
+
+Several techniques were applied to enhance the accuracy of the models, including log transformation and considering the second and third order of features. The logistic regression models' findings indicate that these modifications can improve the accuracy and robustness of the models for both datasets.
+
+The best accuracy achieved for the white wine dataset is 73%, while for kidney disease prediction, it is 75%.
+
+
 please unzip the folder in your drive. Afterwards , you can seamlessly run the code.
 please do not rename the dataset csv files.
 
